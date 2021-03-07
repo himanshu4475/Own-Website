@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dev...Himanshu</title>
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link
+	href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap"
+	rel="stylesheet">
+
+<!-- fav-icon -->
+<link rel="shortcut icon"
+	href="C:\Users\user\Desktop\images (extract.me)\images\fav-icon.png">
+
+</head>
+<body>
+
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<a class="navbar-brand" href="#">Dev...Himanshu</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse"
+			data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false"
+			aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active"><a class="nav-link"
+					href="index.jsp">Home<span class="sr-only">(current)</span></a></li>
+				<li class="nav-item active"><a class="nav-link" href="#">Services</a>
+				</li>
+				<li class="nav-item active"><a class="nav-link"
+					href="about.jsp">About</a></li>
+				<li class="nav-item active"><a class="nav-link" href="#">Contact</a>
+				</li>
+
+
+			</ul>
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search"
+					placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			</form>
+		</div>
+	</nav>
+
+
+
+	<div id="demo" class="carousel slide" data-ride="carousel">
+		<ul class="carousel-indicators">
+			<li data-target="#demo" data-slide-to="0" class="active"></li>
+			<li data-target="#demo" data-slide-to="1"></li>
+			<li data-target="#demo" data-slide-to="2"></li>
+		</ul>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="images/nav1.jpg" alt="Los Angeles" width="1520"
+					height="500">
+				<div class="carousel-caption">
+					<h3>HTML3 and CSS3</h3>
+					<p>Beautiful and Attractive Design By CSS3 and HTML5</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="images/nav2.jpg" alt="Its Me" width="1520" height="500">
+				<div class="carousel-caption">
+					<h3>Java Enterprise Edition</h3>
+					<p>Develop Here Web sites</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="images/nav3.jpg" alt="New York" width="1520" height="500">
+				<div class="carousel-caption">
+					<h3>Developer</h3>
+					<p>Become a Web site Developer</p>
+				</div>
+			</div>
+		</div>
+		<a class="carousel-control-prev" href="#demo" data-slide="prev"> <span
+			class="carousel-control-prev-icon"></span>
+		</a> <a class="carousel-control-next" href="#demo" data-slide="next">
+			<span class="carousel-control-next-icon"></span>
+		</a>
+	</div>
+
+	<section class="my-5">
+		<div class="py-5">
+			<h3 class="text-center">About Us</h3>
+		</div>
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-12">
+					<img src="images/himanshu.jpg" class="img-fluid aboutimg">
+				</div>
+				<div class="col-lg-6 col-md-6 col-12">
+					<h2 class="display-4">I am Software Developer Himanshu</h2>
+					<p class="py-3">This is my Simple web-site, I am graduated
+						B.tech in computer science, I am a software Developer and
+						graduated B.tech in computer science. My interest in develop
+						web-sites and designing the web pages</p>
+					<a href="about.jsp" class="btn btn-success"> about me</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section class="my-5">
+		<div class="py-5">
+			<h3 class="text-center">Our Services</h3>
+		</div>
+
+		<div class="container-fluid">
+			<div class="row">
+				<!-- first -->
+				<div class="col-log-4 col-md-4 col-12">
+					<div class="card">
+						<img class="card-img-top"
+							src="images/java6.jpg"
+							alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">HTML5</h4>
+							<p class="card-text">Use For the Content Of Web-Site</p>
+							<a href="#" class="btn btn-primary">Click</a>
+						</div>
+					</div>
+				</div>
+				<!-- second -->
+				<div class="col-log-4 col-md-4 col-12">
+					<div class="card">
+						<img class="card-img-top"
+							src="images/java3.jpg"
+							alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">CSS3</h4>
+							<p class="card-text">Design and Responsive</p>
+							<a href="#" class="btn btn-primary">Click</a>
+						</div>
+					</div>
+				</div>
+				<!-- third -->
+				<div class="col-log-4 col-md-4 col-12">
+					<div class="card">
+						<img class="card-img-top"
+							src="images/java2.jpg"
+							alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Java</h4>
+							<p class="card-text">Develop Web-Site</p>
+							<a href="#" class="btn btn-primary">Click</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container-fluid">
+			<div class="row">
+				<!-- fourth -->
+				<div class="col-log-4 col-md-4 col-12">
+					<div class="card">
+						<img class="card-img-top"
+							src="images/java5.jpg"
+							alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Bootstrap</h4>
+							<p class="card-text">Let's Make Responsive</p>
+							<a href="#" class="btn btn-primary">Click</a>
+						</div>
+					</div>
+				</div>
+				<!-- fifth -->
+				<div class="col-log-4 col-md-4 col-12">
+					<div class="card">
+						<img class="card-img-top"
+							src="images/java4.jpg"
+							alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">JavaScript</h4>
+							<p class="card-text">Lets Perform Actions</p>
+							<a href="#" class="btn btn-primary">Click</a>
+						</div>
+					</div>
+				</div>
+				<!-- Sixth -->
+				<div class="col-log-4 col-md-4 col-12">
+					<div class="card">
+						<img class="card-img-top"
+							src="images/java1.jpg"
+							alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">PHP</h4>
+							<p class="card-text">Develop Web-sites in PHP</p>
+							<a href="#" class="btn btn-primary">Click</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="my-5">
+		<div class="py-5">
+			<h3 class="text-center">Gallery</h3>
+		</div>
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-12">
+					<img
+						src="images/java1.jpg"
+						class="img-fluidp pb-3">
+				</div>
+				<!-- second -->
+				<div class="col-lg-4 col-md-4 col-12">
+					<img
+						src="images/java2.jpg"
+						class="img-fluidp pb-3">
+				</div>
+				<!-- third -->
+				<div class="col-lg-4 col-md-4 col-12">
+					<img
+						src="images/java3.jpg"
+						class="img-fluidp pb-3">
+				</div>
+				<!-- fourth -->
+				<div class="col-lg-4 col-md-4 col-12">
+					<img
+						src="images/java4.jpg"
+						class="img-fluidp pb-3">
+				</div>
+				<!-- fifth -->
+				<div class="col-lg-4 col-md-4 col-12">
+					<img
+						src="images/java5.jpg"
+						class="img-fluidp pb-3">
+				</div>
+				<!-- sixth -->
+				<div class="col-lg-4 col-md-4 col-12">
+					<img
+						src="images/java6.jpg"
+						class="img-fluidp pb-3">
+				</div>
+			</div>
+		</div>
+
+		<div class='card'>
+			<div class='card-body'>
+				<div class="w-50 m-auto">
+					<form action="index.jsp" method="post">
+						<div class="form-group">
+							<label>User-Name:</label> <input type="text" name="user"
+								autocomplete="off" class="form-control" name='un' id='un'
+								required>
+						</div>
+						<!-- second -->
+						<div class="form-group">
+							<label>Email Id:</label> <input type="text" name="email"
+								autocomplete="off" class="form-control" name='email' id='email'
+								required>
+						</div>
+						<!-- third -->
+						<div class="form-group">
+							<label>Mobile:</label> <input type="text" name="mobile"
+								autocomplete="off" class="form-control" name='mob' id='mob'
+								required>
+						</div>
+						<!-- comment -->
+						<div class="form-group">
+							<label>Comment:</label>
+							<textarea class="form-control" name='comments' id='ta'>
+          
+          </textarea>
+						</div>
+						<!-- <button type="submit" class="btn btn-success">Submit</button> -->
+						<button onclick="validatation();" type="submit"
+							class="btn btn-success">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<p class="p-3 bg-dark text-white text-center">@saxena_G-2021 -
+			(Rohini, Delhi) Contact No. 7985054026, E-mail:
+			himanshusaxena12151@gmail.com</p>
+	</footer>
+
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+	<script>
+		function validation() {
+			swal("Thank You", "Submitted", "Successful");
+		}
+	</script>
+
+</body>
+</html>
